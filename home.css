@@ -1,0 +1,211 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}  
+.head{
+    background-color: #2E2E2E;
+    display: flex; 
+    justify-content: space-around; 
+    height: 50px;  
+}
+.head_left{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+.head_right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.cato{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.search{
+    display: flex;
+    justify-content: right;
+    margin-top: 15px;
+}
+#custom_form {
+    width: 400px;        
+    height: auto;         
+    display: flex;        
+    gap: 10px;            
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}  
+#custom_form input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 1rem;
+}
+#custom_form button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+}  
+.body{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.body_right{
+    margin-left: 15px;
+}
+.body_up{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+}
+#home_pic{
+    height: 400px;
+    width: 700px;
+}
+.body_right p{
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+}
+.body_down p{
+    font-size: larger;
+}
+#head_yus{
+    margin-left: 60px;
+    margin-right: 60px; 
+}
+.why_us{
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    height: 400px;
+    width: 250px;
+}
+#im1{
+    margin-left: 10px;
+}
+#im2{
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+#im3{
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+#im4{
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+#im5{
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+#hd1{
+    display: flex;
+    justify-content: center;
+}
+#hd2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#hd3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#hd4{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#hd5{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.para{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    color: #4A4A4A;
+    font-family: 'Poppins', sans-serif;
+
+}
+.Indian_places{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.location{
+    height: 350px;
+    width: 300px;
+    display: block;
+}
+.ind_loc{
+    border-radius: 20px;
+    height: 300px;
+    width: 200px;
+    margin-left: 16px;
+}
+.ind_loc_name{
+    text-decoration: none;
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.international{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.bottom{
+    height: 175px; 
+    background-color: #2E2E2E;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom_head{
+    color: white;
+}
+.info_left{
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.ind_loc {
+    width: 200px;
+    height: 300px;
+    transition: all 0.3s ease;
+}
+.ind_loc:hover{
+    width: 220px;
+    height: 320px;
+}
+.cato:hover{
+    color: red;
+}

@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}  
+.head{
+    background-color: #2E2E2E;
+    display: flex; 
+    justify-content: space-between; 
+    height: 50px;  
+}
+.head_left{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+}
+.head_right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 75px;
+}
+.cato{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.body{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.ind_tour_packages{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.location{
+    height: 350px;
+    width: 300px;
+    display: block;
+}
+.ind_loc{
+    border-radius: 20px;
+    height: 300px;
+    width: 200px;
+    margin-left: 16px;
+}
+.ind_loc_name{
+    text-decoration: none;
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.bottom{
+    height: 175px; 
+    background-color: #2E2E2E;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom_head{
+    color: white;
+}
+.info_left{
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.ind_loc {
+    width: 200px;
+    height: 300px;
+    transition: all 0.3s ease;
+}
+.ind_loc:hover{
+    width: 220px;
+    height: 320px;
+}
