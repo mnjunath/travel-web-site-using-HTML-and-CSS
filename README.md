@@ -34,19 +34,19 @@ This project demonstrates the design and development of a fully static travel-th
 Here are some previews of the Travel Website in action:
 
 ![Homepage Hero Section](image1.png)
-*Hero section with a bold CTA and scenic background.*
+
 
 ![Destinations Section](image2.png)
-*Popular destinations showcased with images and descriptions.*
+
 
 ![Packages Section](image3.png)
-*Travel packages listed in a clean, responsive grid.*
+
 
 ![About & Contact Section](image4.png)
-*Simple about us section followed by contact information.*
+
 
 ![Footer Section](image5.png)
-*Responsive footer with links and social media icons.*
+
 
 
 ## 📂 Folder Structure
